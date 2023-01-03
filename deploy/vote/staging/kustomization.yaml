@@ -5,3 +5,20 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
+
+replicas:
+  - name: vote
+    count: 7
+
+images:
+  - name: schoolofdevops/vote
+    newTag: v4
+
+namespace: instavote
+
+commonLabels:
+  project: instavote
+  env: staging
+
+commonAnnotations:
+  supported-by: "sre@example.com"
