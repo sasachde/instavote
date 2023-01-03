@@ -5,3 +5,5 @@ resources:
 
 patchesStrategicMerge:
   - deployment.yaml
+
+namespace: instavote
