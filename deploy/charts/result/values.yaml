@@ -7,7 +7,7 @@ image:
   repository: sasachde/result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest" # {"$imagepolicy": "flux-system:vote:tag"}
+  tag: "main-e670959e-1673076111" # {"$imagepolicy": "flux-system:vote:tag"}
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
