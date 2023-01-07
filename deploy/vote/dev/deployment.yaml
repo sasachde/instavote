@@ -11,5 +11,5 @@ spec:
   template:
     spec:
       containers:
-      - image: schoolofdevops/vote:v4
+      - image: sasachde/vote:v4
         name: vote
