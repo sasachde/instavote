@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: schoolofdevops/voter-result
+  repository: sasachde/result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "latest" {"$imagepolicy": "flux-system:vote:tag"}
 
 imagePullSecrets: []
 nameOverride: ""
