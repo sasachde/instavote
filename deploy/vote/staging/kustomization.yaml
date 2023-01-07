@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../base
 patchesStrategicMerge:
-- deployment.yaml
+#- deployment.yaml
 - service.yaml
 replicas:
 - name: vote
